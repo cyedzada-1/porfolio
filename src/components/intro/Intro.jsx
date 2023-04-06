@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ year</small>
+              <small>2+ year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,7 +28,7 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>As a MERN Stack developer, passionate about learning new technologies and working with teams to create user-friendly web applications. Over 1 and half years of experience in web development, including front-end and back-end technologies. Eager to develop skills in a fast-paced environment and contribute to a company's success.</p>
+          <p>As a MERN Stack developer, passionate about learning new technologies and working with teams to create user-friendly web applications. Over 2 and half years of experience in web development, including front-end and back-end technologies. Eager to develop skills in a fast-paced environment and contribute to a company's success.</p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
