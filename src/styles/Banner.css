@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .banner-text .banner-subtitle {
   font-family: "Fira Code", monospace;
   font-size: clamp(14px, 5vw, 16px);
@@ -18,9 +24,21 @@
 
 .banner-text p {
   margin: 20px 0px 0px;
-  max-width: 540px;
+  max-width: auto;
 }
 
 .banner-text a {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.greenBtn {
+  display: left;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.social-media {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 }

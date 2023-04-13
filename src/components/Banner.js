@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
+import SocialMedia from "./SocialMedia";
 import "../styles/Banner.css";
 
 export default function Banner() {
@@ -31,6 +31,7 @@ export default function Banner() {
             >
               My Resume
             </a>
+            <SocialMedia />
           </div>
         </div>
       </Container>
