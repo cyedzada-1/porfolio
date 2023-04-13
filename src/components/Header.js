@@ -17,11 +17,14 @@ export default function Header() {
               <Nav.Link href="#experience">
                 <span className="green">02.</span>Experience
               </Nav.Link>
+              <Nav.Link href="#education">
+                <span className="green">03.</span>Education
+              </Nav.Link>
               <Nav.Link href="#work">
-                <span className="green">03.</span>Work
+                <span className="green">04.</span>Work
               </Nav.Link>
               <Nav.Link href="#contact">
-                <span className="green">04.</span>Contact
+                <span className="green">05.</span>Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

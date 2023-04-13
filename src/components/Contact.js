@@ -6,7 +6,7 @@ import "../styles/Contact.css";
 export default function Contact() {
   return (
     <section id="contact" className="section-padding">
-      <SectionHeading number="04." text="What's Next" />
+      <SectionHeading number="05." text="What's Next" />
       <Container>
         <div className="text-center">
           <h1 className="lightest-slate">Get In Touch</h1>

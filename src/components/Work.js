@@ -9,7 +9,7 @@ import project3 from "../images/course.PNG";
 export default function Work() {
   return (
     <section id="work" className="section-padding">
-      <SectionHeading number="03." text="Some Things I’ve Built" />
+      <SectionHeading number="04." text="Some Things I’ve Built" />
       <Container>
         <Row className="gy-5 py-5">
           <Col lg={7}>
