@@ -17,8 +17,16 @@ export default function Work() {
           </Col>
           <Col lg={5}>
             <div className="text-right">
-              <p className="green featured">Featured Project</p>
-              <h2 className="lightest-slate project-name">Froom</h2>
+              <p className="green featured">Featured Project </p>
+              <h2 className="lightest-slate project-name">
+                <a
+                  href="https://www.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Froom
+                </a>
+              </h2>
               <p className="slate project-description">
                 Froom is a mobile application designed to facilitate hotel
                 bookings for users on the go. As a backend developer for Froom,
@@ -56,7 +64,15 @@ export default function Work() {
           <Col lg={5}>
             <div className="text-right">
               <p className="green featured">Featured Project</p>
-              <h2 className="lightest-slate project-name">PostSpace</h2>
+              <h2 className="lightest-slate project-name">
+                <a
+                  href="https://www.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  PostSpace
+                </a>
+              </h2>
               <p className="slate project-description">
                 Post Space is a cloud storage web application, similar to Google
                 Drive, that is currently in beta version. As the backend
@@ -100,7 +116,13 @@ export default function Work() {
             <div className="text-right">
               <p className="green featured">Featured Project</p>
               <h2 className="lightest-slate project-name">
-                MERN Stack Web Development Training Course
+                <a
+                  href="https://www.example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MERN Stack Web Development Training Course
+                </a>
               </h2>
               <p className="slate project-description">
                 As an instructor for the collaborative MERN stack web

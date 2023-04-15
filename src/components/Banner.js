@@ -14,7 +14,7 @@ export default function Banner() {
               Syed Saqlain Abbas
             </h1>
             <h1 className="banner-heading slate">
-              I build things for the web.&#9786;
+              I build things for the web.<span>&#9786;</span>
             </h1>
             <p className="slate">
               though most people know me as{" "}

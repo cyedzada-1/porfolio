@@ -29,29 +29,123 @@ export default function Education() {
                   <Tab.Content>
                     <Tab.Pane eventKey="first">
                       <h5 className="lightest-slate">
-                        BS Computer Science
-                        <span className="green"> from PMAS-AAUR</span>
+                        BS Computer Science{" "}
+                        <span className="green">
+                          <a
+                            href="https://www.uaar.edu.pk/index.php"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            from PMAS-AAUR
+                          </a>
+                        </span>
                       </h5>
                       <p className="education-year slate">2018-2022</p>
+                      <div className="education-details">
+                        <ul>
+                          <li className="slate">
+                            I completed my BS in Computer Science from Pir Mehr
+                            Ali Shah Arid Agriculture University - PMAS AAUR
+                          </li>
+                          <li className="slate">
+                            I learned about various computer science topics such
+                            as algorithms, data structures, programming
+                            languages, and databases.
+                          </li>
+
+                          <li className="slate">
+                            I also gained practical skills by working on various
+                            projects and internships, including web development,
+                            software engineering, and data analysis.
+                          </li>
+                          <li className="slate">
+                            In addition to my studies, I also participated in
+                            extracurricular activities such as coding
+                            competitions, and volunteer work.
+                          </li>
+                        </ul>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <h5 className="lightest-slate">
                         ICS{" "}
                         <span className="green">
-                          from Steps College Rawalpindi{" "}
+                          <a
+                            href="http://biserawalpindi.edu.pk/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            from BISE Rawalpindi Board
+                          </a>
                         </span>
                       </h5>
                       <p className="education-year slate">2015-2018</p>
+                      <div className="education-details">
+                        <ul>
+                          <li className="slate">
+                            Intermediate in ICS from BISE Rawalpindi Board at{" "}
+                            <a
+                              href="https://www.publiccollegeskardu.app/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Steps College Rawalpindi.{" "}
+                            </a>
+                          </li>
+                          <li className="slate">
+                            Learned about C programming language and MS Access.
+                          </li>
+                          <li className="slate">
+                            Gained practical experience by working on small
+                            projects of C language and MS Access.
+                          </li>
+                          <li className="slate">
+                            Participated in extracurricular activities.
+                          </li>
+                        </ul>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <h5 className="lightest-slate">
-                        Science
+                        Science{" "}
                         <span className="green">
-                          {" "}
-                          from Public School & College Skardu
+                          <a
+                            href="https://fbise.edu.pk/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            from FBISE Islamabad
+                          </a>
                         </span>
                       </h5>
-                      <p className="education-year slate">2014-2015</p>
+                      <p className="education-year slate">2013-2015</p>
+                      <div className="education-details">
+                        <ul>
+                          <li className="slate">
+                            <a
+                              href="https://www.publiccollegeskardu.app/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Public School & College Skardu
+                            </a>
+                          </li>
+
+                          <li className="slate">
+                            <a
+                              href="https://www.facebook.com/people/Jinnah-Public-School-And-College-Satellite-Town-Skardu/100063768920996/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              9th grade from Jinnah Public School (JPS):
+                            </a>
+                          </li>
+                          <li className="slate">
+                            Studied a range of subjects, including mathematics,
+                            physics, chemistry, and biology.
+                          </li>
+                        </ul>
+                      </div>
                     </Tab.Pane>
                   </Tab.Content>
                 </Col>

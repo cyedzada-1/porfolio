@@ -6,6 +6,7 @@
 .navbar-light a.navbar-brand:hover,
 .navbar-light a.navbar-brand:focus {
   color: #64ffda;
+  transform: scale(1.6);
 }
 
 .navbar-light .navbar-toggler {
@@ -30,5 +31,6 @@
 
 .navbar-light .navbar-nav a.nav-link:hover,
 .navbar-light .navbar-nav a.nav-link span {
+  transform: scale(1.1);
   color: #64ffda;
 }
