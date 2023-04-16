@@ -85,7 +85,7 @@ export default function Education() {
                           <li className="slate">
                             Intermediate in ICS from BISE Rawalpindi Board at{" "}
                             <a
-                              href="https://www.publiccollegeskardu.app/"
+                              href="https://www.facebook.com/Stepscollegerwp/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

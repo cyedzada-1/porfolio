@@ -3,7 +3,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import SectionHeading from "./SectionHeading";
 import "../styles/About.css";
 import aboutImage from "../images/profile.jpeg";
-
 export default function About() {
   return (
     <section id="about" className="section-padding">
