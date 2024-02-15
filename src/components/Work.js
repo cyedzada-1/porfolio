@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionHeading from "./SectionHeading";
 import "../styles/Work.css";
-import { FiGithub, FiGlobe } from "react-icons/fi";
+//import { FiGithub, FiGlobe } from "react-icons/fi";
 import project1 from "../images/froom.JPG";
 import project2 from "../images/work.png";
 import project3 from "../images/course.PNG";
