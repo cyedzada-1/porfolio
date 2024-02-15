@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <Navbar bg="transparent" expand="lg">
         <Container>
-          <Navbar.Brand href="/">SS</Navbar.Brand>
+          <Navbar.Brand href="/">GK</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
@@ -17,14 +17,11 @@ export default function Header() {
               <Nav.Link href="#experience">
                 <span className="green">02.</span>Experience
               </Nav.Link>
-              <Nav.Link href="#education">
-                <span className="green">03.</span>Education
-              </Nav.Link>
               <Nav.Link href="#work">
-                <span className="green">04.</span>Work
+                <span className="green">03.</span>Work
               </Nav.Link>
               <Nav.Link href="#contact">
-                <span className="green">05.</span>Contact
+                <span className="green">04.</span>Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

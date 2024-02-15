@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import SectionHeading from "./SectionHeading";
 import "../styles/About.css";
 import aboutImage from "../images/profile.jpeg";
+
 export default function About() {
   return (
     <section id="about" className="section-padding">
@@ -11,7 +12,7 @@ export default function About() {
         <Row className="gy-5 justify-content-center">
           <Col md={7}>
             <p className="about-text slate">
-              As a skilled MERN stack developer with over 2+ years of
+              As a skilled MERN stack developer with over 3+ years of
               experience, I have developed a deep understanding of the entire
               web development process. I have successfully delivered
               high-quality applications that meet the unique needs of my clients
@@ -42,11 +43,14 @@ export default function About() {
                 <span>Javascript (ES6+)</span>
                 <span>Typescript</span>
                 <span>React</span>
+                <span>Next.JS </span>
+                <span>Svelte </span>
                 <span>Node JS</span>
+                <span>Express.JS </span>
+                <span>Nest.JS </span>
                 <span>MongoDB</span>
                 <span>Mongoose</span>
                 <span>Redux</span>
-                <span>Next JS</span>
                 <span>Git</span>
                 <span>Github</span>
                 <span>AWS</span>

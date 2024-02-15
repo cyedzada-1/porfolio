@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import SectionHeading from "./SectionHeading";
 import "../styles/Work.css";
+import { FiGithub, FiGlobe } from "react-icons/fi";
 import project1 from "../images/froom.JPG";
 import project2 from "../images/work.png";
 import project3 from "../images/course.PNG";
@@ -9,7 +10,7 @@ import project3 from "../images/course.PNG";
 export default function Work() {
   return (
     <section id="work" className="section-padding">
-      <SectionHeading number="04." text="Some Things I’ve Built" />
+      <SectionHeading number="03." text="Some Things I’ve Built" />
       <Container>
         <Row className="gy-5 py-5">
           <Col lg={7}>
@@ -17,16 +18,8 @@ export default function Work() {
           </Col>
           <Col lg={5}>
             <div className="text-right">
-              <p className="green featured">Featured Project </p>
-              <h2 className="lightest-slate project-name">
-                <a
-                  href="https://www.example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Froom
-                </a>
-              </h2>
+              <p className="green featured">Featured Project</p>
+              <h2 className="lightest-slate project-name">Froom</h2>
               <p className="slate project-description">
                 Froom is a mobile application designed to facilitate hotel
                 bookings for users on the go. As a backend developer for Froom,
@@ -64,15 +57,7 @@ export default function Work() {
           <Col lg={5}>
             <div className="text-right">
               <p className="green featured">Featured Project</p>
-              <h2 className="lightest-slate project-name">
-                <a
-                  href="https://www.example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  PostSpace
-                </a>
-              </h2>
+              <h2 className="lightest-slate project-name">PostSpace</h2>
               <p className="slate project-description">
                 Post Space is a cloud storage web application, similar to Google
                 Drive, that is currently in beta version. As the backend
@@ -116,13 +101,7 @@ export default function Work() {
             <div className="text-right">
               <p className="green featured">Featured Project</p>
               <h2 className="lightest-slate project-name">
-                <a
-                  href="https://www.example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  MERN Stack Web Development Training Course
-                </a>
+                MERN Stack Web Development Training Course
               </h2>
               <p className="slate project-description">
                 As an instructor for the collaborative MERN stack web

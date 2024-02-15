@@ -4,12 +4,6 @@
   align-items: center;
 }
 
-.banner-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .banner-text .banner-subtitle {
   font-family: "Fira Code", monospace;
   font-size: clamp(14px, 5vw, 16px);
@@ -24,44 +18,9 @@
 
 .banner-text p {
   margin: 20px 0px 0px;
-  max-width: auto;
+  max-width: 540px;
 }
 
 .banner-text a {
-  margin-top: 20px;
-}
-
-.greenBtn {
-  display: left;
-  margin: 10px auto;
-  text-align: left;
-}
-
-.social-media {
-  margin-top: 20px;
-  display: flex;
-  justify-content: flex-end;
-}
-.banner-heading slate span:hover .banner-heading slate span:focus {
-  animation: vibrate 0.9s linear infinite;
-}
-@keyframes vibrate {
-  0% {
-    transform: translate(0, 0);
-  }
-  20% {
-    transform: translate(-2px, 2px);
-  }
-  40% {
-    transform: translate(-2px, -2px);
-  }
-  60% {
-    transform: translate(2px, 2px);
-  }
-  80% {
-    transform: translate(2px, -2px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
+  margin-top: 50px;
 }

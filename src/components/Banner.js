@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import SocialMedia from "./SocialMedia";
+
 import "../styles/Banner.css";
 
 export default function Banner() {
@@ -14,7 +14,7 @@ export default function Banner() {
               Syed Saqlain Abbas
             </h1>
             <h1 className="banner-heading slate">
-              I build things for the web.<span>&#9786;</span>
+              I build things for the web.&#9786;
             </h1>
             <p className="slate">
               though most people know me as{" "}
@@ -24,14 +24,13 @@ export default function Banner() {
               and other modern web development technologies.
             </p>
             <a
-              href="https://drive.google.com/file/d/1Rdroi7MlACj-ZcCtAfgw2rk__ZCnMPOp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YOmYddFz2eKxSdfyN10M1D2CSc5U526l/view?usp=sharing"
               target="_blank"
               className="greenBtn"
               rel="noreferrer"
             >
               My Resume
             </a>
-            <SocialMedia />
           </div>
         </div>
       </Container>
